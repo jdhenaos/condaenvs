@@ -113,7 +113,7 @@ termcolor==3.0.1
 terminado @ file:///work/ci_py311/terminado_1677696151350/work
 tinycss2 @ file:///croot/tinycss2_1738337643607/work
 torch==2.7.0
-torch-geometric==2.6.1
+-e git+ssh://git@github.com/jdhenaos/pytorch_geometric.git@0bf04a9bfe109942efd32f255e536cc7c62f7821#egg=torch_geometric
 tornado @ file:///croot/tornado_1733960490606/work
 tqdm==4.67.1
 traitlets @ file:///croot/traitlets_1718227057033/work
