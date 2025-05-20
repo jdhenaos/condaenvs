@@ -125,7 +125,7 @@ sympy==1.14.0
 terminado @ file:///work/ci_py311/terminado_1677696151350/work
 tinycss2 @ file:///croot/tinycss2_1738337643607/work
 torch==2.7.0
--e git+ssh://git@github.com/jdhenaos/pytorch_geometric.git@d5075562577ed81c71bbba31fec39924046b642d#egg=torch_geometric
+-e git+ssh://git@github.com/jdhenaos/pytorch_geometric.git@50a15545316d3c787af08bdaa6d3607786846a3d#egg=torch_geometric
 tornado @ file:///croot/tornado_1733960490606/work
 tqdm==4.67.1
 traitlets @ file:///croot/traitlets_1718227057033/work
