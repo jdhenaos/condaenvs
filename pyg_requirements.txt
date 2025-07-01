@@ -155,7 +155,7 @@ terminado @ file:///home/conda/feedstock_root/build_artifacts/terminado_17102626
 tinycss2 @ file:///home/conda/feedstock_root/build_artifacts/tinycss2_1729802851396/work
 tomli @ file:///home/conda/feedstock_root/build_artifacts/tomli_1733256695513/work
 torch==2.8.0.dev20250527+cu118
--e git+ssh://git@github.com/jdhenaos/pytorch_geometric.git@6072267a68635295862d34eedeab8a91ea5e5e41#egg=torch_geometric
+-e git+ssh://git@github.com/jdhenaos/pytorch_geometric.git@6fca81b0401df659f1eadc2491048cf4ca61009e#egg=torch_geometric
 torch_cluster==1.6.3+pt22cu118
 torch_scatter==2.1.2+pt22cu118
 torch_sparse==0.6.18+pt22cu118
