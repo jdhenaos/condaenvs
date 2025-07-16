@@ -6,20 +6,32 @@ dependencies:
   - _libgcc_mutex=0.1
   - _openmp_mutex=5.1
   - _r-mutex=1.0.1
+  - anyio=4.9.0
   - argon2-cffi-bindings=21.2.0
+  - arrow=1.3.0
   - asttokens=3.0.0
+  - attrs=25.3.0
+  - babel=2.17.0
+  - beautifulsoup4=4.13.4
   - binutils_impl_linux-64=2.40
   - bleach=6.2.0
+  - bleach-with-css=6.2.0
   - brotli-python=1.0.9
   - bwidget=1.10.1
   - bzip2=1.0.8
   - c-ares=1.34.5
   - ca-certificates=2025.4.26
+  - cached-property=1.5.2
+  - cached_property=1.5.2
   - cairo=1.18.4
   - certifi=2025.4.26
   - cffi=1.17.1
+  - comm=0.2.2
   - curl=8.13.0
+  - debugpy=1.8.14
+  - decorator=5.2.1
   - defusedxml=0.7.1
+  - executing=2.2.0
   - font-ttf-dejavu-sans-mono=2.37
   - font-ttf-inconsolata=3.000
   - font-ttf-source-code-pro=2.038
@@ -27,6 +39,7 @@ dependencies:
   - fontconfig=2.15.0
   - fonts-conda-ecosystem=1
   - fonts-conda-forge=1
+  - fqdn=1.5.1
   - freetype=2.13.3
   - fribidi=1.0.10
   - gcc_impl_linux-64=15.1.0
@@ -35,12 +48,21 @@ dependencies:
   - gsl=2.7
   - gxx_impl_linux-64=15.1.0
   - h11=0.14.0
+  - h2=4.2.0
   - harfbuzz=11.2.1
+  - hpack=4.1.0
+  - hyperframe=6.1.0
   - icu=75.1
+  - idna=3.10
+  - importlib_resources=6.5.2
   - ipykernel=6.29.5
+  - isoduration=20.11.0
   - jedi=0.19.2
   - jinja2=3.1.6
+  - json5=0.12.0
+  - jsonpointer=3.0.0
   - jsonschema=4.23.0
+  - jsonschema-with-format-nongpl=4.23.0
   - jupyter_client=8.6.3
   - jupyter_core=5.7.2
   - jupyter_events=0.12.0
@@ -75,6 +97,8 @@ dependencies:
   - libiconv=1.18
   - libjpeg-turbo=3.1.0
   - liblapack=3.9.0
+  - liblzma=5.6.4
+  - liblzma-devel=5.6.4
   - libnghttp2=1.64.0
   - libnsl=2.0.1
   - libopenblas=0.3.29
@@ -96,28 +120,41 @@ dependencies:
   - libzlib=1.3.1
   - make=4.4.1
   - markupsafe=3.0.2
+  - matplotlib-inline=0.1.7
+  - mistune=3.1.3
   - nbclient=0.10.2
   - nbconvert-core=7.16.6
   - nbformat=5.10.4
-  - ncurses=6.4
+  - ncurses=6.4.20240210
   - nest-asyncio=1.6.0
   - notebook-shim=0.2.4
   - openssl=3.5.0
+  - overrides=7.7.0
+  - packaging=25.0
   - pandoc=3.6.4
   - pango=1.56.3
   - parso=0.8.4
   - pcre2=10.44
-  - pip=25.0
+  - pexpect=4.9.0
+  - pickleshare=0.7.5
+  - pip=25.0.1
   - pixman=0.46.0
+  - pkgutil-resolve-name=1.3.10
   - platformdirs=4.3.7
   - prometheus_client=0.21.1
   - prompt_toolkit=3.0.43
+  - psutil=7.0.0
   - pthread-stubs=0.4
   - ptyprocess=0.7.0
+  - pure_eval=0.2.3
+  - pycparser=2.22
   - pygments=2.19.1
   - pysocks=1.7.1
   - python=3.10.13
   - python-dateutil=2.9.0post0
+  - python-fastjsonschema=2.21.1
+  - python_abi=3.10
+  - pytz=2025.2
   - pyyaml=6.0.2
   - r-askpass=1.2.1
   - r-assertthat=0.2.1
@@ -269,18 +306,28 @@ dependencies:
   - r-yaml=2.3.10
   - r-zip=2.3.2
   - readline=8.2
+  - referencing=0.36.2
   - requests=2.32.3
   - rfc3339-validator=0.1.4
   - rfc3986-validator=0.1.1
   - sed=4.9
+  - send2trash=1.8.3
   - six=1.17.0
+  - sniffio=1.3.1
+  - soupsieve=2.7
   - sqlite=3.45.2
+  - stack_data=0.6.3
   - sysroot_linux-64=2.17
+  - terminado=0.18.1
   - tinycss2=1.4.0
   - tk=8.6.13
   - tktable=2.10
   - tornado=6.4.2
   - traitlets=5.14.3
+  - typing_utils=0.1.0
+  - uri-template=1.3.0
+  - wcwidth=0.2.13
+  - webcolors=24.11.1
   - webencodings=0.5.1
   - websocket-client=1.8.0
   - wheel=0.45.1
@@ -293,58 +340,45 @@ dependencies:
   - xorg-libxrender=0.9.12
   - xorg-libxt=1.3.1
   - xz=5.6.4
+  - xz-gpl-tools=5.6.4
+  - xz-tools=5.6.4
   - yaml=0.2.5
   - zeromq=4.3.5
   - zlib=1.3.1
+  - zstandard=0.23.0
   - zstd=1.5.7
   - pip:
       - anndata==0.11.4
-      - anyio==4.9.0
       - appdirs==1.4.4
       - argon2-cffi==23.1.0
       - array-api-compat==1.11.2
-      - arrow==1.3.0
       - async-lru==2.0.5
-      - attrs==25.3.0
-      - babel==2.17.0
       - backports-tarfile==1.2.0
-      - beautifulsoup4==4.13.4
       - build==1.2.2.post1
       - cachecontrol==0.14.2
       - charset-normalizer==3.4.1
       - cleo==2.1.0
-      - comm==0.2.2
       - crashtest==0.4.1
       - cryptography==44.0.2
-      - curated-atlas-query-py==0.0.1
-      - debugpy==1.8.14
-      - decorator==5.2.1
       - distlib==0.3.9
       - duckdb==1.2.2
       - dulwich==0.22.8
       - exceptiongroup==1.2.2
-      - executing==2.2.0
-      - fastjsonschema==2.21.1
       - filelock==3.18.0
       - findpython==0.6.3
-      - fqdn==1.5.1
       - h5py==3.13.0
       - httpcore==1.0.8
       - httpx==0.28.1
-      - idna==3.10
       - importlib-metadata==8.6.1
       - iniconfig==2.1.0
       - installer==0.7.0
       - ipython==8.35.0
       - ipython-genutils==0.2.0
       - ipywidgets==8.1.6
-      - isoduration==20.11.0
       - jaraco-classes==3.4.0
       - jaraco-context==6.0.1
       - jaraco-functools==4.1.0
       - jeepney==0.9.0
-      - json5==0.12.0
-      - jsonpointer==3.0.0
       - jsonschema-specifications==2024.10.1
       - jupyter==1.1.1
       - jupyter-console==6.6.3
@@ -357,47 +391,32 @@ dependencies:
       - jupyterlab-widgets==3.0.14
       - keyring==25.6.0
       - lxml==5.4.0
-      - matplotlib-inline==0.1.7
-      - mistune==3.1.3
       - more-itertools==10.7.0
       - msgpack==1.1.0
       - natsort==8.4.0
       - notebook==7.4.1
       - numpy==2.2.5
-      - overrides==7.7.0
-      - packaging==25.0
       - pandas==2.2.3
       - pandocfilters==1.5.1
       - pbs-installer==2025.4.9
-      - pexpect==4.9.0
       - pkginfo==1.12.1.2
       - pluggy==1.5.0
       - poetry==2.1.2
       - poetry-core==2.1.2
       - prompt-toolkit==3.0.51
-      - psutil==7.0.0
-      - pure-eval==0.2.3
-      - pycparser==2.22
       - pyproject-hooks==1.2.0
       - pytest==8.3.5
       - python-json-logger==3.3.0
-      - pytz==2025.2
       - pyzmq==26.4.0
       - rapidfuzz==3.13.0
-      - referencing==0.36.2
       - requests-toolbelt==1.0.0
       - rpds-py==0.24.0
       - scipy==1.15.2
       - secretstorage==3.3.3
-      - send2trash==1.8.3
       - session-info==1.0.1
       - setuptools==79.0.0
       - shellingham==1.5.4
-      - sniffio==1.3.1
-      - soupsieve==2.7
-      - stack-data==0.6.3
       - stdlib-list==0.11.1
-      - terminado==0.18.1
       - tomli==2.2.1
       - tomlkit==0.13.2
       - tqdm==4.67.1
@@ -405,12 +424,8 @@ dependencies:
       - types-python-dateutil==2.9.0.20241206
       - typing-extensions==4.13.2
       - tzdata==2025.2
-      - uri-template==1.3.0
       - urllib3==2.4.0
       - virtualenv==20.30.0
-      - wcwidth==0.2.13
-      - webcolors==24.11.1
       - widgetsnbextension==4.0.14
       - zipp==3.21.0
-      - zstandard==0.23.0
 prefix: /home/juan/anaconda3/envs/cellnexuspy
