@@ -98,6 +98,7 @@ findpython==0.6.3
 flake8 @ file:///work/perseverance-python-buildout/croot/flake8_1728399191681/work
 Flask @ file:///croot/flask_1737454299809/work
 fonttools @ file:///croot/fonttools_1737039080035/work
+fqdn==1.5.1
 frozendict @ file:///work/perseverance-python-buildout/croot/frozendict_1728497542215/work
 frozenlist @ file:///croot/frozenlist_1730902802621/work
 fsspec @ file:///croot/fsspec_1747117721425/work
@@ -127,6 +128,7 @@ intervaltree @ file:///Users/ktietz/demo/mc3/conda-bld/intervaltree_163051188966
 ipykernel @ file:///croot/ipykernel_1737660677549/work
 ipython @ file:///croot/ipython_1734548052611/work
 ipywidgets @ file:///io/buildout/croot/ipywidgets_1735843964234/work
+isoduration==20.11.0
 isort @ file:///croot/isort_1741284882758/work
 itemadapter @ file:///tmp/build/80754af9/itemadapter_1626442940632/work
 itemloaders @ file:///croot/itemloaders_1743512857112/work
@@ -371,11 +373,13 @@ tzdata @ file:///croot/python-tzdata_1746123641790/work
 uc-micro-py @ file:///work/perseverance-python-buildout/croot/uc-micro-py_1728395631322/work
 ujson @ file:///croot/ujson_1736541024667/work
 Unidecode @ file:///work/perseverance-python-buildout/croot/unidecode_1728516903550/work
+uri-template==1.3.0
 urllib3 @ file:///croot/urllib3_1737133630106/work
 virtualenv==20.31.2
 w3lib @ file:///Users/ktietz/demo/mc3/conda-bld/w3lib_1629359764703/work
 watchdog @ file:///croot/watchdog_1740409902579/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webcolors==24.11.1
 webencodings @ file:///work/perseverance-python-buildout/croot/webencodings_1728385731103/work
 websocket-client @ file:///work/perseverance-python-buildout/croot/websocket-client_1728386934860/work
 Werkzeug @ file:///croot/werkzeug_1737448706492/work
